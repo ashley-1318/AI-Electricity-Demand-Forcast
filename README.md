@@ -1,146 +1,74 @@
-AI-Based Electricity Demand and Peak Load Forecasting for Tamil Nadu Power System
-View Demo Site
+# ⚡ AI-Based Electricity Demand and Peak Load Forecasting for Tamil Nadu Power System  
 
-Project Summary
-This project develops an Artificial Intelligence (AI) based forecasting model to predict electricity demand and peak load for Tamil Nadu’s power system. The model integrates historical load, weather data, calendar effects, and regional growth indicators to capture unique demand patterns including strong evening peaks and renewable energy variability. Advanced machine learning techniques such as LSTM (Long Short-Term Memory), SVM (Support Vector Machines), and Fuzzy Neural Networks are used to generate accurate short-term and long-term hourly projections, helping optimize power procurement, grid stability, and renewable integration.
+🔗 [**View Demo Site**](https://ai-electricity-forecast.web.app)  
 
-Features
-Hourly electricity demand and peak load forecasting
+---
 
-Incorporation of weather variables: temperature, humidity, wind speed, rainfall
+## 📌 Project Summary  
+This project develops an **Artificial Intelligence (AI) based forecasting model** to predict electricity demand and peak load for Tamil Nadu’s power system.  
 
-Calendar effects: public holidays, weekends, seasonal variations
+The model integrates **historical load, weather data, calendar effects, and regional growth indicators** to capture unique demand patterns, including strong evening peaks and renewable energy variability.  
 
-Regional socioeconomic indicators including real estate development trends
+Machine learning techniques such as **LSTM (Long Short-Term Memory), SVM (Support Vector Machines), and Fuzzy Neural Networks (FNN)** are used to generate accurate **short-term and long-term hourly projections**, helping optimize:  
+- ⚡ Power procurement  
+- 🛠️ Grid stability  
+- 🌱 Renewable integration  
 
-Multi-model AI approach for robustness and accuracy
+---
 
-Interactive visualization dashboard hosted at Demo Site
+## 🚀 Features  
+- Hourly electricity demand & peak load forecasting  
+- Weather variable integration: temperature, humidity, wind speed, rainfall  
+- Calendar effects: holidays, weekends, seasonal variations  
+- Regional socioeconomic indicators (e.g., real estate trends)  
+- Multi-model AI ensemble approach for higher accuracy  
+- Interactive web dashboard for real-time visualization  
 
-Motivation
-Tamil Nadu is experiencing rapid demand growth, significant renewable energy penetration, and complex load patterns influenced by climate and socio-economic factors. Accurate demand forecasting is crucial to ensure reliable power supply, reduce costly power imbalances, and enable efficient integration of clean energy sources.
+---
 
-Data Sources
-Historical electricity load data from Tamil Nadu generation and distribution utilities
+## 🎯 Motivation  
+Tamil Nadu is facing:  
+- Rapid electricity demand growth  
+- High renewable energy penetration  
+- Complex load patterns due to climate & socio-economic factors  
 
-Weather data from publicly available meteorological sources
+Accurate **AI-driven forecasting** is crucial to:  
+- Ensure reliable power supply  
+- Minimize costly imbalances  
+- Enable efficient clean energy integration  
 
-Regional development and holiday calendars
+---
 
-Methodology
-Data preprocessing and feature engineering to incorporate multi-source inputs
+## 📊 Data Sources  
+- Historical electricity load data from Tamil Nadu utilities  
+- Meteorological data (temperature, humidity, wind, rainfall)  
+- Regional development statistics & public holiday calendars  
 
-Training and evaluation of multiple machine learning models: LSTM, SVM, FNN
+---
 
-Hyperparameter tuning and model optimization for accuracy
+## ⚙️ Methodology  
+1. **Data Preprocessing** – cleaning, normalization & feature engineering  
+2. **Model Training** – LSTM, SVM, FNN with hyperparameter tuning  
+3. **Evaluation & Ensemble** – combining models for robustness  
+4. **Deployment** – web platform hosting live forecasts  
 
-Ensemble modeling to leverage strengths of individual models
+---
 
-Deployment of the best-performing model for live forecasting on the web platform
+## 💻 Usage  
 
-Usage
-Clone the repository
+```bash
+# Clone the repository
+git clone https://github.com/your-username/ai-electricity-forecast.git
+cd ai-electricity-forecast
 
-Install required dependencies (listed in requirements.txt)
+# Install dependencies
+pip install -r requirements.txt
 
-Prepare datasets in the specified format using available preprocessing scripts
+# Prepare dataset
+python src/preprocess.py
 
-Train models with training scripts provided
+# Train models
+python src/train.py
 
-Run inference to generate demand forecasts
-
-Use the web application for interactive exploration and visualization
-
-Directory Structure
-text
-├── data/                 # Raw and processed datasets
-├── notebooks/            # Jupyter notebooks for exploratory analysis
-├── models/               # Trained model files and architectures
-├── src/                  # Source code for data processing and model training
-├── webapp/               # Code for web deployment of forecasting dashboard
-├── requirements.txt      # Python dependencies
-└── README.md             # Project overview and instructions
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgements
-Tamil Nadu Electricity Regulatory Commission (TNERC) for data access and guidelines
-
-Public meteorological data providers
-
-Open-source AI and machine learning libraries including TensorFlow, scikit-learn, and others
-
-This README gives a comprehensive overview, usage instructions, and project context suitable for GitHub users and contributors. Let me know if any customization or more technical details are needed.Here is a complete README file draft for your AI-based electricity demand forecasting project for Tamil Nadu, referencing your site https://ai-electricity-forecast.web.app:
-
-AI-Based Electricity Demand and Peak Load Forecasting for Tamil Nadu Power System
-View Demo Site
-
-Project Summary
-This project develops an Artificial Intelligence (AI) based forecasting model to predict electricity demand and peak load for Tamil Nadu’s power system. The model integrates historical load, weather data, calendar effects, and regional growth indicators to capture unique demand patterns including strong evening peaks and renewable energy variability. Advanced machine learning techniques such as LSTM (Long Short-Term Memory), SVM (Support Vector Machines), and Fuzzy Neural Networks are used to generate accurate short-term and long-term hourly projections, helping optimize power procurement, grid stability, and renewable integration.
-
-Features
-Hourly electricity demand and peak load forecasting
-
-Incorporation of weather variables: temperature, humidity, wind speed, rainfall
-
-Calendar effects: public holidays, weekends, seasonal variations
-
-Regional socioeconomic indicators including real estate development trends
-
-Multi-model AI approach for robustness and accuracy
-
-Interactive visualization dashboard hosted at Demo Site
-
-Motivation
-Tamil Nadu is experiencing rapid demand growth, significant renewable energy penetration, and complex load patterns influenced by climate and socio-economic factors. Accurate demand forecasting is crucial to ensure reliable power supply, reduce costly power imbalances, and enable efficient integration of clean energy sources.
-
-Data Sources
-Historical electricity load data from Tamil Nadu generation and distribution utilities
-
-Weather data from publicly available meteorological sources
-
-Regional development and holiday calendars
-
-Methodology
-Data preprocessing and feature engineering to incorporate multi-source inputs
-
-Training and evaluation of multiple machine learning models: LSTM, SVM, FNN
-
-Hyperparameter tuning and model optimization for accuracy
-
-Ensemble modeling to leverage strengths of individual models
-
-Deployment of the best-performing model for live forecasting on the web platform
-
-Usage
-Clone the repository
-
-Install required dependencies (listed in requirements.txt)
-
-Prepare datasets in the specified format using available preprocessing scripts
-
-Train models with training scripts provided
-
-Run inference to generate demand forecasts
-
-Use the web application for interactive exploration and visualization
-
-Directory Structure
-text
-├── data/                 # Raw and processed datasets
-├── notebooks/            # Jupyter notebooks for exploratory analysis
-├── models/               # Trained model files and architectures
-├── src/                  # Source code for data processing and model training
-├── webapp/               # Code for web deployment of forecasting dashboard
-├── requirements.txt      # Python dependencies
-└── README.md             # Project overview and instructions
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgements
-Tamil Nadu Electricity Regulatory Commission (TNERC) for data access and guidelines
-
-Public meteorological data providers
-
-Open-source AI and machine learning libraries including TensorFlow, scikit-learn, and others
-
+# Run inference
+python src/inference.py
